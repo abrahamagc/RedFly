@@ -1,10 +1,5 @@
 # RedFly
-[Windows] Copy folders excluding certain folders like "output", "checkpoints" where models are stored. Say you want to copy comfyui without the models
-
-
-# Red Fly Backup Tool
-
-Red Fly Backup Tool is a simple and user-friendly application to create backups of your folders while excluding specified subfolders. This tool provides an intuitive graphical user interface (GUI) to select the parent folder, set a prefix name, and specify folders to exclude from the backup.
+Red Fly Backup Tool is a simple and user-friendly application to create backups of your folders while excluding specified subfolders. This tool provides an simple graphical user interface (GUI) to select the parent folder, set a prefix name, and specify folders to exclude from the backup. I created it to create abackups of entire applicatins with their configs while ignoring very large LLM model files (example: stable diffusion - automatic111 and comfyUI Apps). This helps me to revert back easily to old baseline due to some corruption in folder. (note apps like ComfyUI and Automatic111 we do not checkin to GitHub) 
 
 ## Features
 
