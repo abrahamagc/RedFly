@@ -1,3 +1,5 @@
 # RedFly-specific
 /dist/
 .redfly/
+**/LOG/
+**/build/
